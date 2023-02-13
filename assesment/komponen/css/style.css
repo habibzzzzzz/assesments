@@ -1,0 +1,152 @@
+
+
+
+:root {
+  --normal-font: 400;
+  --bold-font: 600;
+  --bolder-font: 900;
+  --primary-color: black;
+  --line-height: 1.7rem;
+  --transition: 0.4s ease-in;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: var(--transition);
+}
+
+body {
+  font-family: "Roboto", sans-serf;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: red;
+} 
+
+.reborn{
+  font-size: 35px;
+  font-weight: bold;
+  color:  black;
+  margin-right: 75rem;
+}
+
+.lambang {
+  width: 70px;
+  height: 70px;
+}
+
+nav {
+  background:  white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+}
+
+
+.logo {
+  font-size:  2rem;
+  font-weight: 300;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item {
+  margin-left: -300px;
+  position: relative;
+}
+
+.nav-link {
+  font-weight: var(--bold-font);
+}
+
+.intro{
+  display: auto;
+  align-items: left;
+  justify-content: space-between;
+  margin: auto;
+  height: 750px;
+  background: url("../gambar/background.jpg") no-repeat top center/cover;;
+
+}
+
+.quote img{
+ margin-left: 450px;
+ margin-right: 500px;
+ margin-top: 680px  ;
+ position: absolute;
+}
+
+
+/*about*/
+.about {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.gambar{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.teks{
+  font-size: 36px;
+  text-align: left;
+  align-items: center;
+  margin-left: 700px;
+  margin-top: -300px;
+ 
+}
+
+.campaign{
+  text-align: center;
+  margin-top: 250px;
+
+}
+
+
+
+.imagecampaign{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.imagecampaign2{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sikil {
+  margin-left: 1400px;
+  margin-top: 40px;
+  position: absolute;
+}
+
+
